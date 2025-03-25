@@ -6,6 +6,8 @@ public class QuestionDTO {
 
     static int compteur = 0;
     private int id;
+    private int idQuestionnaire;
+    private int numQuestion;
     private Langue langue;
     private String libelle;
     private String reponse;
@@ -13,8 +15,10 @@ public class QuestionDTO {
     private String explication;
     private String reference;
 
-    public QuestionDTO(Langue langue, String libelle, String reponse, int difficulte, String explication, String reference) {
+    public QuestionDTO(int idQuestionnaire, int numQuestion, Langue langue, String libelle, String reponse, int difficulte, String explication, String reference) {
         this.id = compteur++;
+        this.idQuestionnaire = idQuestionnaire;
+        this.numQuestion = numQuestion;
         this.langue = langue;
         this.libelle = libelle;
         this.reponse = reponse;
@@ -22,5 +26,4 @@ public class QuestionDTO {
         this.explication = explication;
         this.reference = reference;
     }
-
 }

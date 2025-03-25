@@ -2,7 +2,7 @@ package org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz.utils.enums;
 
 
 public enum Langue {
-    Francais("Français"),
+    fr("fr"),
     Anglais("Anglais"),
     Allemand("Allemand"),
     Espagnol("Espagnol"),

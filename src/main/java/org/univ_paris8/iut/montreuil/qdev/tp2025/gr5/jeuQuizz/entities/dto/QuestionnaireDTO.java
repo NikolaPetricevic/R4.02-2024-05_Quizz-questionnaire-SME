@@ -10,7 +10,24 @@ public class QuestionnaireDTO {
     private ArrayList<QuestionDTO> questions;
 
     public QuestionnaireDTO(String titre, ArrayList<QuestionDTO> questions) {
+        this.id = compteur++;
         this.titre = titre;
         this.questions = questions;
     }
+
+    public QuestionnaireDTO(String titre) {
+        this.id = compteur++;
+        this.titre = titre;
+        this.questions = new ArrayList<>();
+    }
+
+    public void ajouterQuestion(QuestionDTO question) {
+        this.questions.add(question);
+    }
+
+    public ArrayList<QuestionDTO> getQuestions() {
+        return questions;
+    }
+
+
 }
