@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d49218-a693-4f6a-9ee9-57b9664c7328" name="Changes" comment="Commit Installation Jupiter">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/entities/dto/QuestionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/entities/dto/QuestionnaireDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/services/impl/FournirListeQuestionnaires.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/services/interfaces/FournirListeQuestionnairesInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/utils/enums/Langue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/utils/exceptions/fournirListeQuestionnaireExceptions/FichierCorrompuException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/utils/exceptions/fournirListeQuestionnaireExceptions/FichierInexistantException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/utils/exceptions/fournirListeQuestionnaireExceptions/FichierVideException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/utils/exceptions/fournirListeQuestionnaireExceptions/FormatFichierInvalideException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/utils/exceptions/fournirListeQuestionnaireExceptions/FournirQuestionnaireException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/entities/dto/QuestionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/entities/dto/QuestionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/entities/dto/QuestionnaireDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/entities/dto/QuestionnaireDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/services/impl/FournirListeQuestionnaires.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/services/impl/FournirListeQuestionnaires.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +62,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz.App" />
+      <module name="questionnaire_sme" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questionnaire_sme" />
       <extension name="coverage">
@@ -88,6 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>

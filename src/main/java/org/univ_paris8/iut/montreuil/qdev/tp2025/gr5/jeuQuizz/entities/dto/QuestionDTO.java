@@ -26,4 +26,8 @@ public class QuestionDTO {
         this.explication = explication;
         this.reference = reference;
     }
+
+    public String getLibelle() {
+        return libelle;
+    }
 }

@@ -29,5 +29,7 @@ public class QuestionnaireDTO {
         return questions;
     }
 
-
+    public int getId() {
+        return id;
+    }
 }
